@@ -14,7 +14,7 @@ import { CardModule } from 'primeng/card';
   selector: 'app-root',
   imports: [RouterOutlet, FormsModule, CommonModule, FloatLabelModule, InputTextModule, ButtonModule, CardModule],
   template: ` <main class="text-center m-auto">
-    <h1 class="text-center"> {{title()}} </h1>
+    <h1 class="text-center"> {{title}} </h1>
     
     <div class="card flex flex-wrap justify-center items-end gap-4 mt-4">
             
